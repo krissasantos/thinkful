@@ -1,0 +1,16 @@
+def reverse(string)
+  reversed_string = ""
+  idx = 0
+
+  # An if is not a loop 
+  # Use a while 
+  
+  until idx == string.length
+    
+    reversed_string =  string[idx].to_s + reversed_string
+  
+    idx = idx + 1
+  end
+  
+  return reversed_string
+end
